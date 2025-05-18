@@ -89,7 +89,7 @@ The app retrieves the most relevant sections and generates an answer using FLAN-
 ## Author
 
 Umesh D.  
-Connect on LinkedIn
+Connect on LinkedIn(https://www.linkedin.com/in/umesh-dhoddapaneni-355b57284/)
 
 ## License
 
