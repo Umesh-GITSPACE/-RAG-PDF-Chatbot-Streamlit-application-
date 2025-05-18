@@ -1,1 +1,28 @@
+# == CORE DEPENDENCIES ==
+# Streamlit for building the interactive web UI
+streamlit==1.34.0
+
+# Sentence Transformers for generating embeddings from PDF text
+sentence-transformers==2.2.2
+
+# Hugging Face Transformers - using FLAN-T5 model for Q&A
+transformers==4.40.1
+
+# FAISS CPU version - fast similarity search on embedded text
+faiss-cpu==1.7.4
+
+# PyMuPDF (fitz) - extract text from PDF pages
+PyMuPDF==1.23.21
+
+# Numerical computing libraries used by FAISS, embeddings, etc.
+numpy==1.24.4
+scipy==1.10.1
+scikit-learn==1.3.0
+
+# Required for running models (like FLAN-T5) — ensure GPU/CPU compatibility
+torch==2.1.2
+
+# == COLAB-SPECIFIC DEPENDENCY ==
+# Ngrok - used to expose the Streamlit app publicly when running from Google Colab
+pyngrok==5.3.0
 
